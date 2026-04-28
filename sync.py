@@ -31,11 +31,8 @@ load_dotenv()
 # ---------------------------------------------------------------------------
 
 TMDB_API_KEY = os.getenv("TMDB_API_KEY", "")
-LETTERBOXD_USERNAME = os.getenv("LETTERBOXD_USERNAME", "Moneykriss")
-OBSIDIAN_VAULT = os.getenv(
-    "OBSIDIAN_VAULT_PATH",
-    "/Users/kristoffermoen/Documents/Obsidian Vault Kristoffer/Kristoffer",
-)
+LETTERBOXD_USERNAME = os.getenv("LETTERBOXD_USERNAME", "")
+OBSIDIAN_VAULT = os.getenv("OBSIDIAN_VAULT_PATH", "")
 MOVIE_FOLDER = os.getenv("MOVIE_FOLDER", "LetterboxdDiary")
 POSTER_FOLDER = os.getenv("POSTER_FOLDER", "posters")
 
